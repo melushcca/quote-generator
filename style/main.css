@@ -1,0 +1,44 @@
+body {
+  background: url('http://nitefevamedia.com/images/webdesign_1338484318_44.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding:20px;
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.quote {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  height: 350px;
+  font-family: 'Permanent Marker', Arial, sans-serif;
+  font-size:35px;
+}
+
+.madeby {
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.madeby > a {
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+}
