@@ -22,3 +22,9 @@ function newQuote() {
   var number = Math.floor(Math.random() * (quotes.length));
   document.getElementById('display-quote').innerHTML = quotes[number];
 }
+
+
+// Share Quote on Twitter
+$('#newTweet').click(function(){
+  window.open("https://twitter.com/intent/tweet?text=" + $('#display-quote').text());
+});
